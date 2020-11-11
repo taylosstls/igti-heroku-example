@@ -6,6 +6,8 @@ import { studentRouter } from './routes/studentRoutes.js';
 
 const app = express();
 
+require('dotenv').config();
+
 /*Conexao com o MongoDB*/
 (async () => {
   try {
